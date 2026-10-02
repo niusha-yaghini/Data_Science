@@ -1,0 +1,62 @@
+Adaptive Skewness-Based Outlier Filtering (ASBOF) Results
+
+
+Processing column: Open
+Skewness for Open: -0.15
+Fixed threshold applied for Open. Lower: 46.52, Upper: 164.12
+Termination reason for Open: Fixed threshold applied
+Final shape for Open: (2881, 6)
+
+Processing column: Low
+Skewness for Low: -0.16
+Fixed threshold applied for Low. Lower: 46.30, Upper: 163.37
+Termination reason for Low: Fixed threshold applied
+Final shape for Low: (2881, 6)
+
+Processing column: High
+Skewness for High: -0.15
+Fixed threshold applied for High. Lower: 46.73, Upper: 165.20
+Termination reason for High: Fixed threshold applied
+Final shape for High: (2883, 6)
+
+Processing column: Close
+Skewness for Close: -0.15
+Fixed threshold applied for Close. Lower: 46.48, Upper: 164.40
+Termination reason for Close: Fixed threshold applied
+Final shape for Close: (2881, 6)
+
+Processing column: Volume
+Skewness for Volume: 2.73
+Fixed threshold applied for Volume. Lower: 2206203.00, Upper: 23995479.00
+Termination reason for Volume: Fixed threshold applied
+Final shape for Volume: (2881, 6)
+
+------------------------------------------
+Conclusion:
+
+Open: Retained 2881 rows after filtering. (rm 10.00%)
+Low: Retained 2881 rows after filtering. (rm 10.00%)
+High: Retained 2883 rows after filtering. (rm 9.93%)
+Close: Retained 2881 rows after filtering. (rm 10.00%)
+Volume: Retained 2881 rows after filtering. (rm 10.00%)
+
+Final shape of ASBOF: (2690, 6)
+
+Conclusion:
+Skewness before ASBOF filtering:
+Open: -0.15
+Low: -0.16
+High: -0.15
+Close: -0.15
+Volume: 2.73
+
+Skewness after ASBOF filtering:
+Open: -0.22
+Low: -0.23
+High: -0.22
+Close: -0.22
+Volume: 0.83
+
+Initial data count: 3201
+Final data count: 2690
+Percentage of data removed: 15.96%

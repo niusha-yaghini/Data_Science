@@ -1,0 +1,72 @@
+Adaptive Skewness-Based Outlier Filtering (ASBOF) Results
+
+
+Processing column: Open
+Skewness for Open: 0.03
+Fixed threshold applied for Open. Lower: 28.46, Upper: 66.72
+Termination reason for Open: Fixed threshold applied
+Final shape for Open: (2124, 6)
+
+Processing column: Low
+Skewness for Low: 0.02
+Fixed threshold applied for Low. Lower: 27.80, Upper: 66.61
+Termination reason for Low: Fixed threshold applied
+Final shape for Low: (2124, 6)
+
+Processing column: High
+Skewness for High: 0.04
+Fixed threshold applied for High. Lower: 29.04, Upper: 66.84
+Termination reason for High: Fixed threshold applied
+Final shape for High: (2124, 6)
+
+Processing column: Close
+Skewness for Close: 0.03
+Fixed threshold applied for Close. Lower: 28.50, Upper: 66.74
+Termination reason for Close: Fixed threshold applied
+Final shape for Close: (2124, 6)
+
+Processing column: Volume
+Skewness for Volume: 4.92
+Initial skewness for Volume: 4.92
+Percentage: 50% | Skewness: 3.49 | Remaining Rows: 2353
+Percentage: 60% | Skewness: 2.55 | Remaining Rows: 2341
+Percentage: 74% | Skewness: 2.24 | Remaining Rows: 2330
+Percentage: 75% | Skewness: 1.73 | Remaining Rows: 2305
+Percentage: 82% | Skewness: 1.39 | Remaining Rows: 2266
+Percentage: 85% | Skewness: 1.09 | Remaining Rows: 2205
+Termination reason for Volume: Too many rows removed => 
+ removal_limit = 0.1 
+remaining_rows = 2017
+ total_rows = 2362 
+0.14606265876375957
+Final shape for Volume: (2205, 6)
+
+------------------------------------------
+Conclusion:
+
+Open: Retained 2124 rows after filtering. (rm 10.08%)
+Low: Retained 2124 rows after filtering. (rm 10.08%)
+High: Retained 2124 rows after filtering. (rm 10.08%)
+Close: Retained 2124 rows after filtering. (rm 10.08%)
+Volume: Retained 2205 rows after filtering. (rm 6.65%)
+
+Final shape of ASBOF: (1984, 6)
+
+Conclusion:
+Skewness before ASBOF filtering:
+Open: 0.03
+Low: 0.02
+High: 0.04
+Close: 0.03
+Volume: 4.92
+
+Skewness after ASBOF filtering:
+Open: 0.03
+Low: 0.02
+High: 0.03
+Close: 0.03
+Volume: 1.09
+
+Initial data count: 2362
+Final data count: 1984
+Percentage of data removed: 16.00%

@@ -1,0 +1,30 @@
+Your selected dataframe has 40 columns.
+There are 26 columns that have missing values.
+
+                                                            Missing Values  % of Total Values
+ENERGY STAR Score                                                     2104               17.9
+Weather Normalized Site Natural Gas Intensity (therms/ft²)            1963               16.7
+Weather Normalized Site Natural Gas Use (therms)                      1962               16.7
+Weather Normalized Site EUI (kBtu/ft²)                                1465               12.5
+Weather Normalized Source EUI (kBtu/ft²)                              1465               12.5
+Natural Gas Use (kBtu)                                                1442               12.3
+Weather Normalized Site Electricity Intensity (kWh/ft²)                787                6.7
+Weather Normalized Site Electricity (kWh)                              786                6.7
+Electricity Use - Grid Purchase (kBtu)                                 244                2.1
+Source EUI (kBtu/ft²)                                                  163                1.4
+Site EUI (kBtu/ft²)                                                    163                1.4
+NYC Building Identification Number (BIN)                               162                1.4
+Street Number                                                          124                1.1
+Street Name                                                            122                1.0
+Water Required?                                                        118                1.0
+DOF Gross Floor Area                                                   118                1.0
+Borough                                                                118                1.0
+Direct GHG Emissions (Metric Tons CO2e)                                 83                0.7
+Total GHG Emissions (Metric Tons CO2e)                                  74                0.6
+Indirect GHG Emissions (Metric Tons CO2e)                               65                0.6
+Metered Areas (Energy)                                                  57                0.5
+DOF Benchmarking Submission Status                                      30                0.3
+NYC Borough, Block and Lot (BBL) self-reported                          11                0.1
+BBL - 10 digits                                                         11                0.1
+Largest Property Use Type - Gross Floor Area (ft²)                       2                0.0
+Largest Property Use Type                                                2                0.0

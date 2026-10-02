@@ -1,0 +1,370 @@
+Outliers based on Z-Score method (highest Z-score):
+Order                                                                                        9984
+Property Id                                                                               4414323
+Property Name                                                                        234 Skillman
+Parent Property Id                                            Not Applicable: Standalone Property
+Parent Property Name                                          Not Applicable: Standalone Property
+BBL - 10 digits                                                                        3028937502
+NYC Borough, Block and Lot (BBL) self-reported                                         3028937502
+NYC Building Identification Number (BIN)                                        3390250 , 3338313
+Address 1 (self-reported)                                                     234 Skillman avenue
+Postal Code                                                                                 11211
+Street Number                                                                                 234
+Street Name                                                                       SKILLMAN AVENUE
+Borough                                                                                  Brooklyn
+DOF Gross Floor Area                                                                      61811.0
+Primary Property Type - Self Selected                                         Multifamily Housing
+List of All Property Use Types at Property                                    Multifamily Housing
+Largest Property Use Type                                                     Multifamily Housing
+Largest Property Use Type - Gross Floor Area (ft²)                                        56900.0
+Year Built                                                                                   2004
+Number of Buildings - Self-reported                                                             1
+Occupancy                                                                                      90
+Metered Areas (Energy)                                                             Whole Building
+score                                                                                         1.0
+Site EUI (kBtu/ft²)                                                                      869265.0
+Weather Normalized Site EUI (kBtu/ft²)                                                   939329.0
+Weather Normalized Site Electricity Intensity (kWh/ft²)                                       9.9
+Weather Normalized Site Natural Gas Intensity (therms/ft²)                                 9393.0
+Weather Normalized Source EUI (kBtu/ft²)                                                 986366.0
+Natural Gas Use (kBtu)                                                              49459193300.0
+Weather Normalized Site Natural Gas Use (therms)                                      534458968.8
+Electricity Use - Grid Purchase (kBtu)                                                  1983655.6
+Weather Normalized Site Electricity (kWh)                                                563239.6
+Total GHG Emissions (Metric Tons CO2e)                                                  2627199.1
+Direct GHG Emissions (Metric Tons CO2e)                                                 2627015.0
+Indirect GHG Emissions (Metric Tons CO2e)                                                   184.1
+Property GFA - Self-Reported (ft²)                                                          56900
+Source EUI (kBtu/ft²)                                                                    912801.1
+Release Date                                                               05/01/2017 11:34:14 PM
+Water Required?                                                                               Yes
+DOF Benchmarking Submission Status                                                  In Compliance
+Name: 8068, dtype: object
+
+Outliers based on IQR method:
+       Order  Property Id                              Property Name  \
+0          1        13286                                    201/205   
+1          2        28400                 NYP Columbia (West Campus)   
+5          6        28402                  NYP Cornell (East Campus)   
+7         10      2610789                         North Shore Towers   
+8         11      2611745    Towers Golf Course and Irrigation Wells   
+...      ...          ...                                        ...   
+11722  14947      3244128                         2513 Staten Island   
+11727  14961      2796601  STATEN ISLAND UNIVERSITY HOSPITAL Seguine   
+11730  14971      5866122             Blumenfeld: 2750 Veterans Road   
+11731  14973      5866148             Blumenfeld: 2955 Veterans Road   
+11732  14975      4479488                     Amboy Plaza Realty LLC   
+
+                        Parent Property Id  \
+0                                    13286   
+1                                    28400   
+5                                    28402   
+7                                  2610789   
+8                                  2610789   
+...                                    ...   
+11722  Not Applicable: Standalone Property   
+11727  Not Applicable: Standalone Property   
+11730  Not Applicable: Standalone Property   
+11731  Not Applicable: Standalone Property   
+11732  Not Applicable: Standalone Property   
+
+                      Parent Property Name BBL - 10 digits  \
+0                                  201/205      1013160001   
+1               NYP Columbia (West Campus)      1021380040   
+5                NYP Cornell (East Campus)      1014800001   
+7                       North Shore Towers      4084890001   
+8                       North Shore Towers      4084890001   
+...                                    ...             ...   
+11722  Not Applicable: Standalone Property      5054970007   
+11727  Not Applicable: Standalone Property      5066700001   
+11730  Not Applicable: Standalone Property      5074690200   
+11731  Not Applicable: Standalone Property      5075110001   
+11732  Not Applicable: Standalone Property      5077020001   
+
+      NYC Borough, Block and Lot (BBL) self-reported  \
+0                                         1013160001   
+1                                       1-02138-0040   
+5                                       1-01480-0001   
+7                                         4084890001   
+8                                         4084890001   
+...                                              ...   
+11722                                   5-05497-0007   
+11727                                     5066700001   
+11730                                   5-07469-0200   
+11731                                   5-07511-0001   
+11732                                   5-07702-0001   
+
+                NYC Building Identification Number (BIN)  \
+0                                                1037549   
+1      1084198; 1084387;1084385; 1084386; 1084388; 10...   
+5                                       1084781; 1084780   
+7                        4456886;4456885;4453535;4456888   
+8                                                4456888   
+...                                                  ...   
+11722                                            5073190   
+11727                                            5082757   
+11730                                            5149741   
+11731                                            5150131   
+11732                            5110511;5110512;5155571   
+
+          Address 1 (self-reported) Postal Code Street Number  \
+0          201/205  East  42nd  st.       10017           675   
+1                  622 168th Street       10032           180   
+5              525 East 68th Street       10021          1176   
+7      270-10 Grand Central Parkway       11005           269   
+8      272-86 Grand Central Parkway       11005           269   
+...                             ...         ...           ...   
+11722               4343 Amboy Road       10312          4343   
+11727               375 Seguine Ave       10309           375   
+11730       2750 Veterans Road West       10309          2750   
+11731       2955 Veterans Road West       10309     2935-2965   
+11732          6390-6420 Amboy Road       10309          6420   
+
+                Street Name        Borough  DOF Gross Floor Area  \
+0                  3 AVENUE      Manhattan              289356.0   
+1      FT WASHINGTON AVENUE      Manhattan             3693539.0   
+5               YORK AVENUE      Manhattan             2230742.0   
+7        GRAND CENTRAL PKWY         Queens             3750565.0   
+8        GRAND CENTRAL PKWY         Queens             3750565.0   
+...                     ...            ...                   ...   
+11722            AMBOY ROAD  Staten Island               61246.0   
+11727        SEGUINE AVENUE  Staten Island              220240.0   
+11730    VETERANS ROAD WEST  Staten Island              155282.0   
+11731    VETERANS ROAD WEST  Staten Island              169865.0   
+11732            AMBOY ROAD  Staten Island               69575.0   
+
+       Primary Property Type - Self Selected  \
+0                                     Office   
+1      Hospital (General Medical & Surgical)   
+5      Hospital (General Medical & Surgical)   
+7                        Multifamily Housing   
+8                                      Other   
+...                                      ...   
+11722              Supermarket/Grocery Store   
+11727  Hospital (General Medical & Surgical)   
+11730                                 Office   
+11731                                 Office   
+11732              Supermarket/Grocery Store   
+
+              List of All Property Use Types at Property  \
+0                                                 Office   
+1                  Hospital (General Medical & Surgical)   
+5                  Hospital (General Medical & Surgical)   
+7      Financial Office, Medical Office, Multifamily ...   
+8                                                  Other   
+...                                                  ...   
+11722                          Supermarket/Grocery Store   
+11727              Hospital (General Medical & Surgical)   
+11730                                             Office   
+11731                                             Office   
+11732  Bank Branch, Fast Food Restaurant, Food Sales,...   
+
+                   Largest Property Use Type  \
+0                                     Office   
+1      Hospital (General Medical & Surgical)   
+5      Hospital (General Medical & Surgical)   
+7                        Multifamily Housing   
+8                                      Other   
+...                                      ...   
+11722              Supermarket/Grocery Store   
+11727  Hospital (General Medical & Surgical)   
+11730                                 Office   
+11731                                 Office   
+11732              Supermarket/Grocery Store   
+
+       Largest Property Use Type - Gross Floor Area (ft²)  Year Built  \
+0                                               293447.0         1963   
+1                                              3889181.0         1969   
+5                                              2971874.0         1932   
+7                                              2400000.0         1974   
+8                                                  200.0         1974   
+...                                                  ...          ...   
+11722                                            39524.0         1976   
+11727                                           220240.0         1950   
+11730                                           160292.0         2005   
+11731                                           170865.0         2006   
+11732                                            42064.0         1993   
+
+       Number of Buildings - Self-reported  Occupancy Metered Areas (Energy)  \
+0                                        2        100         Whole Building   
+1                                       12        100         Whole Building   
+5                                       12        100         Whole Building   
+7                                        4        100         Whole Building   
+8                                        1        100         Whole Building   
+...                                    ...        ...                    ...   
+11722                                    1        100         Whole Building   
+11727                                    1        100         Whole Building   
+11730                                    1        100         Whole Building   
+11731                                    1        100         Whole Building   
+11732                                    1        100         Whole Building   
+
+       score  Site EUI (kBtu/ft²)  Weather Normalized Site EUI (kBtu/ft²)  \
+0       65.0                305.6                                   303.1   
+1       55.0                229.8                                   228.8   
+5       55.0                359.9                                   359.0   
+7       65.0             143974.4                                143976.0   
+8       65.0               1138.3                                  1091.5   
+...      ...                  ...                                     ...   
+11722   53.0                217.3                                   223.4   
+11727   37.0                400.3                                    82.5   
+11730  100.0                  5.1                                     5.1   
+11731  100.0                  7.3                                     7.3   
+11732   70.0                166.7                                   166.5   
+
+       Weather Normalized Site Electricity Intensity (kWh/ft²)  \
+0                                                   37.8         
+1                                                   24.8         
+5                                                    8.3         
+7                                                    5.3         
+8                                                  319.9         
+...                                                  ...         
+11722                                               36.4         
+11727                                               27.4         
+11730                                                1.5         
+11731                                                2.1         
+11732                                               37.5         
+
+       Weather Normalized Site Natural Gas Intensity (therms/ft²)  \
+0                                                    0.5            
+1                                                    2.4            
+5                                                    4.8            
+7                                                 1439.7            
+8                                                    0.5            
+...                                                  ...            
+11722                                                1.0            
+11727                                                3.0            
+11730                                                0.5            
+11731                                                0.5            
+11732                                                0.4            
+
+       Weather Normalized Source EUI (kBtu/ft²)  Natural Gas Use (kBtu)  \
+0                                         614.2            4.103962e+06   
+1                                         401.1            9.330734e+08   
+5                                         411.5            1.432251e+09   
+7                                      151174.5            3.942852e+11   
+8                                        3427.3            4.103962e+06   
+...                                         ...                     ...   
+11722                                     494.0            3.623494e+06   
+11727                                     129.4            6.613778e+07   
+11730                                      16.0            4.103962e+06   
+11731                                      22.9            4.103962e+06   
+11732                                     442.4            2.773100e+06   
+
+       Weather Normalized Site Natural Gas Use (therms)  \
+0                                          4.445525e+04   
+1                                          9.330734e+06   
+5                                          1.432251e+07   
+7                                          3.942852e+09   
+8                                          4.445525e+04   
+...                                                 ...   
+11722                                      3.925150e+04   
+11727                                      6.613778e+05   
+11730                                      4.445525e+04   
+11731                                      4.445525e+04   
+11732                                      2.889930e+04   
+
+       Electricity Use - Grid Purchase (kBtu)  \
+0                                3.813937e+07   
+1                                3.323659e+08   
+5                                8.633535e+07   
+7                                1.855196e+06   
+8                                2.276581e+05   
+...                                       ...   
+11722                            4.963858e+06   
+11727                            2.036599e+07   
+11730                            8.188800e+05   
+11731                            1.248792e+06   
+11732                            9.736888e+06   
+
+       Weather Normalized Site Electricity (kWh)  \
+0                                    11082770.50   
+1                                    96261312.10   
+5                                    24550859.40   
+7                                      541631.25   
+8                                       63979.90   
+...                                          ...   
+11722                                 1437802.60   
+11727                                 6038454.30   
+11730                                  240000.00   
+11731                                  366000.00   
+11732                                 2815480.10   
+
+       Total GHG Emissions (Metric Tons CO2e)  \
+0                                      6962.2   
+1                                     55870.4   
+5                                     54429.8   
+7                                  20943400.0   
+8                                        21.1   
+...                                       ...   
+11722                                   653.1   
+11727                                  5525.1   
+11730                                    76.0   
+11731                                   115.9   
+11732                                  1050.9   
+
+       Direct GHG Emissions (Metric Tons CO2e)  \
+0                                          0.0   
+1                                      51016.4   
+5                                      77564.1   
+7                                   20943400.0   
+8                                          0.0   
+...                                        ...   
+11722                                    192.5   
+11727                                   3635.2   
+11730                                      0.0   
+11731                                      0.0   
+11732                                    147.3   
+
+       Indirect GHG Emissions (Metric Tons CO2e)  \
+0                                         6962.2   
+1                                         4854.1   
+5                                       -23134.3   
+7                                            0.0   
+8                                           21.1   
+...                                          ...   
+11722                                      460.6   
+11727                                     1890.0   
+11730                                       76.0   
+11731                                      115.9   
+11732                                      903.6   
+
+       Property GFA - Self-Reported (ft²)  Source EUI (kBtu/ft²)  \
+0                                  762051                  619.4   
+1                                 3889181                  404.3   
+5                                 2971874                  414.2   
+7                                 2738875               151172.9   
+8                                     200                 3574.2   
+...                                   ...                    ...   
+11722                               39524                  490.6   
+11727                              220240                  613.3   
+11730                              160292                   16.0   
+11731                              170865                   22.9   
+11732                               75043                  446.2   
+
+                 Release Date Water Required?  \
+0      05/01/2017 05:32:03 PM              No   
+1      04/27/2017 11:23:27 AM              No   
+5      04/27/2017 11:23:27 AM              No   
+7      04/28/2017 07:44:37 AM             Yes   
+8      04/28/2017 07:44:37 AM             Yes   
+...                       ...             ...   
+11722  04/28/2017 02:17:45 PM              No   
+11727  04/25/2017 12:11:30 PM             Yes   
+11730  05/01/2017 01:22:10 PM             Yes   
+11731  05/01/2017 01:22:10 PM             Yes   
+11732  04/19/2017 11:38:50 AM             Yes   
+
+      DOF Benchmarking Submission Status  
+0                          In Compliance  
+1                          In Compliance  
+5                          In Compliance  
+7                          In Compliance  
+8                          In Compliance  
+...                                  ...  
+11722                      In Compliance  
+11727                      In Compliance  
+11730                      In Compliance  
+11731                      In Compliance  
+11732                      In Compliance  
+
+[867 rows x 40 columns]

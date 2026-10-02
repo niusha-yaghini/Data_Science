@@ -1,0 +1,72 @@
+Z-Score-Based Outlier Removal Results
+
+Shape of original dataset: (3201, 6)
+
+Processing column: Open
+Initial skewness of the data for Open: -0.15
+Mean: 108.18, Std Dev: 34.34
+Dynamic Z-Score threshold for Open based on skewness: 2
+Outliers found: 15
+Rows before filtering: 3201
+Rows after filtering: 3186
+Rows removed: 15 (0.47%)
+
+Processing column: Low
+Initial skewness of the data for Low: -0.16
+Mean: 107.22, Std Dev: 33.93
+Dynamic Z-Score threshold for Low based on skewness: 2
+Outliers found: 0
+Rows before filtering: 3186
+Rows after filtering: 3186
+Rows removed: 0 (0.00%)
+
+Processing column: High
+Initial skewness of the data for High: -0.15
+Mean: 108.43, Std Dev: 34.18
+Dynamic Z-Score threshold for High based on skewness: 2
+Outliers found: 3
+Rows before filtering: 3186
+Rows after filtering: 3183
+Rows removed: 3 (0.09%)
+
+Processing column: Close
+Initial skewness of the data for Close: -0.15
+Mean: 107.78, Std Dev: 34.02
+Dynamic Z-Score threshold for Close based on skewness: 2
+Outliers found: 0
+Rows before filtering: 3183
+Rows after filtering: 3183
+Rows removed: 0 (0.00%)
+
+Processing column: Volume
+Initial skewness of the data for Volume: 2.73
+Mean: 9917757.67, Std Dev: 7345323.08
+Dynamic Z-Score threshold for Volume based on skewness: 3
+Outliers found: 52
+Rows before filtering: 3183
+Rows after filtering: 3131
+Rows removed: 52 (1.63%)
+
+Final shape of dataset after Z-Score filtering: (3131, 11)
+
+------------------------------------------
+Conclusion:
+
+Skewness before Percentile optimization:
+Open: -0.15
+Low: -0.16
+High: -0.15
+Close: -0.15
+Volume: 2.73
+
+Skewness after Percentile optimization:
+Open: -0.17
+Low: -0.18
+High: -0.18
+Close: -0.17
+Volume: 1.12
+
+Conclusion:
+Initial data count: 3201
+Final data count: 3131
+Percentage of data removed: 2.19%

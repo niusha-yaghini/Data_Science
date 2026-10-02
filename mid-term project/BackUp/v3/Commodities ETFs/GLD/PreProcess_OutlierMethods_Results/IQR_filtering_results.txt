@@ -1,0 +1,63 @@
+IQR-Based Outlier Removal Results
+
+Shape of original dataset: (3201, 6)
+
+Processing column: Open
+Q1 (25th percentile): 83.56, Q3 (75th percentile): 127.24, IQR: 43.68
+Lower bound: 39.88, Upper bound: 170.92
+Rows before filtering: 3201
+Rows after filtering: 3142
+Rows removed: 59 (1.84%)
+
+Processing column: Low
+Q1 (25th percentile): 81.34, Q3 (75th percentile): 126.00, IQR: 44.66
+Lower bound: 36.68, Upper bound: 170.66
+Rows before filtering: 3142
+Rows after filtering: 3141
+Rows removed: 1 (0.03%)
+
+Processing column: High
+Q1 (25th percentile): 83.03, Q3 (75th percentile): 126.94, IQR: 43.91
+Lower bound: 39.12, Upper bound: 170.85
+Rows before filtering: 3141
+Rows after filtering: 3132
+Rows removed: 9 (0.29%)
+
+Processing column: Close
+Q1 (25th percentile): 82.18, Q3 (75th percentile): 126.34, IQR: 44.16
+Lower bound: 38.02, Upper bound: 170.50
+Rows before filtering: 3132
+Rows after filtering: 3132
+Rows removed: 0 (0.00%)
+
+Processing column: Volume
+Q1 (25th percentile): 5116424.75, Q3 (75th percentile): 12344318.00, IQR: 7227893.25
+Lower bound: -2111468.50, Upper bound: 19572211.25
+Rows before filtering: 3132
+Rows after filtering: 2882
+Rows removed: 250 (7.98%)
+
+Final shape of dataset after IQR filtering: (2882, 6)
+
+------------------------------------------
+Conclusion:
+
+
+Skewness before IQR filtering:
+Open: -0.15
+Low: -0.16
+High: -0.15
+Close: -0.15
+Volume: 2.73
+
+Skewness after IQR filtering:
+Open: -0.21
+Low: -0.21
+High: -0.21
+Close: -0.21
+Volume: 0.51
+
+Conclusion:
+Initial data count: 3201
+Final data count: 2882
+Percentage of data removed: 9.97%

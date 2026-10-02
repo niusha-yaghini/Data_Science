@@ -1,0 +1,54 @@
+Density-Based Filtering Results with Advanced Quartile Adjustment
+
+
+Processing column: Open
+Skewness for Open: 0.03
+Percentage used for Open: 50%
+Dynamic density threshold for Open: 63.20
+Low density indices for Open: [ 0  1  2  3  4 16 17 18 19]
+Low density ranges for Open: [(21.4, 23.9655), (23.9655, 26.531), (26.531, 29.0965), (29.0965, 31.662), (31.662, 34.2275), (62.44799999999999, 65.0135), (65.0135, 67.579), (67.579, 70.1445), (70.1445, 72.71)]
+Shape after density-based filtering for Open: (1937, 6)
+Filtered data retained 1937 out of 2362 rows (82.01%).
+
+Processing column: Low
+Skewness for Low: 0.02
+Percentage used for Low: 50%
+Dynamic density threshold for Low: 63.20
+Low density indices for Low: [ 0  1  2  3  4 16 17 18 19]
+Low density ranges for Low: [(21.047, 23.61915), (23.61915, 26.1913), (26.1913, 28.76345), (28.76345, 31.3356), (31.3356, 33.90775), (62.20139999999999, 64.77355), (64.77355, 67.3457), (67.3457, 69.91785), (69.91785, 72.49)]
+Shape after density-based filtering for Low: (1932, 6)
+Filtered data retained 1932 out of 2362 rows (81.80%).
+
+Processing column: High
+Skewness for High: 0.04
+Percentage used for High: 50%
+Dynamic density threshold for High: 64.40
+Low density indices for High: [ 0  1  4 16 17 18 19]
+Low density ranges for High: [(21.583, 24.141599999999997), (24.141599999999997, 26.7002), (31.8174, 34.376), (62.520599999999995, 65.07919999999999), (65.07919999999999, 67.6378), (67.6378, 70.1964), (70.1964, 72.755)]
+Shape after density-based filtering for High: (2074, 6)
+Filtered data retained 2074 out of 2362 rows (87.81%).
+
+Processing column: Close
+Skewness for Close: 0.03
+Percentage used for Close: 50%
+Dynamic density threshold for Close: 63.20
+Low density indices for Close: [ 0  1  3  4 16 17 18 19]
+Low density ranges for Close: [(21.169, 23.74605), (23.74605, 26.3231), (28.90015, 31.4772), (31.4772, 34.054249999999996), (62.401799999999994, 64.97885), (64.97885, 67.5559), (67.5559, 70.13295), (70.13295, 72.71)]
+Shape after density-based filtering for Close: (2003, 6)
+Filtered data retained 2003 out of 2362 rows (84.80%).
+
+Processing column: Volume
+Skewness for Volume: 4.92
+Percentage used for Volume: 90%
+Dynamic density threshold for Volume: 178.48
+Low density indices for Volume: [ 3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Low density ranges for Volume: [(978688.4500000001, 1301475.6), (1301475.6, 1624262.75), (1624262.75, 1947049.9000000001), (1947049.9000000001, 2269837.0500000003), (2269837.0500000003, 2592624.2), (2592624.2, 2915411.35), (2915411.35, 3238198.5), (3238198.5, 3560985.6500000004), (3560985.6500000004, 3883772.8000000003), (3883772.8000000003, 4206559.95), (4206559.95, 4529347.100000001), (4529347.100000001, 4852134.25), (4852134.25, 5174921.4), (5174921.4, 5497708.550000001), (5497708.550000001, 5820495.7), (5820495.7, 6143282.850000001), (6143282.850000001, 6466070.0)]
+Shape after density-based filtering for Volume: (2205, 6)
+Filtered data retained 2205 out of 2362 rows (93.35%).
+
+Summary of results for all columns:
+Open: Retained 1937 rows (82.01%) after filtering.
+Low: Retained 1932 rows (81.80%) after filtering.
+High: Retained 2074 rows (87.81%) after filtering.
+Close: Retained 2003 rows (84.80%) after filtering.
+Volume: Retained 2205 rows (93.35%) after filtering.

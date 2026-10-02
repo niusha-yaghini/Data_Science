@@ -1,0 +1,69 @@
+Density-Based Filtering Results with Advanced Quartile Adjustment
+
+
+Processing column: Open
+Skewness before filtering for Open: -0.15
+Skewness after filtering for Open: -0.15
+Percentage used for Open: 50%
+Dynamic density threshold for Open: 106.00
+Low density indices for Open: [ 1  4  5 13 14 18 19]
+Shape after density-based filtering for Open: (2756, 6)
+Filtered data retained 2756 out of 3201 rows (86.10%).
+
+Processing column: Low
+Skewness before filtering for Low: -0.16
+Skewness after filtering for Low: -0.16
+Percentage used for Low: 50%
+Dynamic density threshold for Low: 108.80
+Low density indices for Low: [ 1  4  5  8 14 15 18 19]
+Shape after density-based filtering for Low: (2541, 6)
+Filtered data retained 2541 out of 3201 rows (79.38%).
+
+Processing column: High
+Skewness before filtering for High: -0.15
+Skewness after filtering for High: -0.15
+Percentage used for High: 50%
+Dynamic density threshold for High: 106.00
+Low density indices for High: [ 1  4  5 13 14 18 19]
+Shape after density-based filtering for High: (2532, 6)
+Filtered data retained 2532 out of 3201 rows (79.10%).
+
+Processing column: Close
+Skewness before filtering for Close: -0.15
+Skewness after filtering for Close: -0.15
+Percentage used for Close: 50%
+Dynamic density threshold for Close: 105.20
+Low density indices for Close: [ 1  4  5  8 13 14 18 19]
+Shape after density-based filtering for Close: (2511, 6)
+Filtered data retained 2511 out of 3201 rows (78.44%).
+
+Processing column: Volume
+Skewness before filtering for Volume: 2.73
+Skewness after filtering for Volume: 2.73
+Percentage used for Volume: 70%
+Dynamic density threshold for Volume: 38.08
+Low density indices for Volume: [ 6  7  8  9 10 11 12 13 14 15 16 17 18 19]
+Shape after density-based filtering for Volume: (2457, 6)
+Filtered data retained 2457 out of 3201 rows (76.76%).
+
+------------------------------------------
+Conclusion:
+
+
+Skewness before Density-Based filtering:
+Open: -0.15
+Low: -0.16
+High: -0.15
+Close: -0.15
+Volume: 2.73
+
+Skewness after Density-Based filtering:
+Open: -0.28
+Low: -0.28
+High: -0.29
+Close: -0.28
+Volume: 1.08
+
+Initial data count: 3201
+Final data count: 2457
+Percentage of data removed: 23.24%

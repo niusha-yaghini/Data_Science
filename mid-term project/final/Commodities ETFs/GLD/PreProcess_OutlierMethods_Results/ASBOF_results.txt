@@ -1,0 +1,36 @@
+Adaptive Skewness-Based Outlier Filtering (ASBOF) Results
+
+
+Processing column: Open
+Skewness for Open: -0.15
+Fixed threshold applied for Open. Lower: 46.52, Upper: 164.12
+Final shape for Open: (2881, 6)
+
+Processing column: Low
+Skewness for Low: -0.16
+Fixed threshold applied for Low. Lower: 46.30, Upper: 163.37
+Final shape for Low: (2881, 6)
+
+Processing column: High
+Skewness for High: -0.15
+Fixed threshold applied for High. Lower: 46.73, Upper: 165.20
+Final shape for High: (2883, 6)
+
+Processing column: Close
+Skewness for Close: -0.15
+Fixed threshold applied for Close. Lower: 46.48, Upper: 164.40
+Final shape for Close: (2881, 6)
+
+Processing column: Volume
+Skewness for Volume: 2.73
+Fixed threshold applied for Volume. Lower: 2206203.00, Upper: 23995479.00
+Final shape for Volume: (2881, 6)
+
+Summary of results for all columns:
+Open: Retained 2881 rows after filtering.
+Low: Retained 2881 rows after filtering.
+High: Retained 2883 rows after filtering.
+Close: Retained 2881 rows after filtering.
+Volume: Retained 2881 rows after filtering.
+
+Final shape of ASBOF: (2690, 6)

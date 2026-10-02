@@ -1,0 +1,71 @@
+Density-Based Percentile Optimization Results
+
+Shape of original dataset: (3201, 6)
+
+
+Optimizing for column: Open
+Range (Percentile)  Skewness  Lower Bound    Upper Bound    Remaining Rows 
+0.01-0.99         -0.18      42.43          172.86          3138
+0.02-0.98         -0.19      42.83          170.04          3073
+0.05-0.95         -0.22      46.52          164.12          2881
+0.10-0.90         -0.34      58.97          156.90          2561
+
+Best range for Open: Percentiles (0.01-0.99), Values (42.43 to 172.86), Remaining Rows: 3138
+
+Optimizing for column: Low
+Range (Percentile)  Skewness  Lower Bound    Upper Bound    Remaining Rows 
+0.01-0.99         -0.18      42.28          171.90          3137
+0.02-0.98         -0.20      42.70          169.08          3073
+0.05-0.95         -0.23      46.30          163.37          2881
+0.10-0.90         -0.35      58.65          156.05          2562
+
+Best range for Low: Percentiles (0.01-0.99), Values (42.28 to 171.90), Remaining Rows: 3137
+
+Optimizing for column: High
+Range (Percentile)  Skewness  Lower Bound    Upper Bound    Remaining Rows 
+0.01-0.99         -0.18      42.51          173.86          3137
+0.02-0.98         -0.20      42.96          171.39          3073
+0.05-0.95         -0.22      46.73          165.20          2883
+0.10-0.90         -0.34      59.34          157.45          2561
+
+Best range for High: Percentiles (0.01-0.99), Values (42.51 to 173.86), Remaining Rows: 3137
+
+Optimizing for column: Close
+Range (Percentile)  Skewness  Lower Bound    Upper Bound    Remaining Rows 
+0.01-0.99         -0.18      42.40          173.02          3137
+0.02-0.98         -0.19      42.82          170.75          3073
+0.05-0.95         -0.22      46.48          164.40          2881
+0.10-0.90         -0.34      59.01          156.98          2561
+
+Best range for Close: Percentiles (0.01-0.99), Values (42.40 to 173.02), Remaining Rows: 3137
+
+Optimizing for column: Volume
+Range (Percentile)  Skewness  Lower Bound    Upper Bound    Remaining Rows 
+0.01-0.99         1.36      867100.00          37654941.00          3137
+0.02-0.98         1.12      1207500.00          30352781.00          3073
+0.05-0.95         0.83      2206203.00          23995479.00          2881
+0.10-0.90         0.58      3290600.00          18316938.00          2561
+
+Best range for Volume: Percentiles (0.10-0.90), Values (3290600.00 to 18316938.00), Remaining Rows: 2561
+
+------------------------------------------
+Conclusion:
+
+Skewness before Percentile optimization:
+Open: -0.15
+Low: -0.16
+High: -0.15
+Close: -0.15
+Volume: 2.73
+
+Skewness after Percentile optimization:
+Open: -0.15
+Low: -0.15
+High: -0.14
+Close: -0.14
+Volume: 0.59
+
+Conclusion:
+Initial data count: 3201
+Final data count: 2536
+Percentage of data removed: 20.77%

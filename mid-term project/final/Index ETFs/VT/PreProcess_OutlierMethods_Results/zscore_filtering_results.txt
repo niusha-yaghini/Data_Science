@@ -1,0 +1,81 @@
+Z-Score Filtering Results
+
+
+Processing column: Open
+Skewness of the data for Open: 0.03
+Dynamic Z-Score threshold for Open based on skewness: 2
+Total Data Points: 2362
+Data Points in Range [-2, 2]: 2288 (96.87%)
+Outlier Data Points: 74 (3.13%)
+Shape of filtered data for Open: (2288, 7)
+
+Processing column: Low
+Skewness of the data for Low: 0.02
+Dynamic Z-Score threshold for Low based on skewness: 2
+Total Data Points: 2362
+Data Points in Range [-2, 2]: 2289 (96.91%)
+Outlier Data Points: 73 (3.09%)
+Shape of filtered data for Low: (2289, 8)
+
+Processing column: High
+Skewness of the data for High: 0.04
+Dynamic Z-Score threshold for High based on skewness: 2
+Total Data Points: 2362
+Data Points in Range [-2, 2]: 2291 (96.99%)
+Outlier Data Points: 71 (3.01%)
+Shape of filtered data for High: (2291, 9)
+
+Processing column: Close
+Skewness of the data for Close: 0.03
+Dynamic Z-Score threshold for Close based on skewness: 2
+Total Data Points: 2362
+Data Points in Range [-2, 2]: 2288 (96.87%)
+Outlier Data Points: 74 (3.13%)
+Shape of filtered data for Close: (2288, 10)
+
+Processing column: Volume
+Skewness of the data for Volume: 4.92
+Dynamic Z-Score threshold for Volume based on skewness: 3
+Total Data Points: 2362
+Data Points in Range [-3, 3]: 2316 (98.05%)
+Outlier Data Points: 46 (1.95%)
+Shape of filtered data for Volume: (2316, 11)
+
+Summary of Results for All Columns:
+
+Column: Open
+  Skewness: 0.03
+  Threshold: 2
+  Total Data Points: 2362
+  Data Points in Range: 2288 (96.87%)
+  Outlier Data Points: 74 (3.13%)
+
+Column: Low
+  Skewness: 0.02
+  Threshold: 2
+  Total Data Points: 2362
+  Data Points in Range: 2289 (96.91%)
+  Outlier Data Points: 73 (3.09%)
+
+Column: High
+  Skewness: 0.04
+  Threshold: 2
+  Total Data Points: 2362
+  Data Points in Range: 2291 (96.99%)
+  Outlier Data Points: 71 (3.01%)
+
+Column: Close
+  Skewness: 0.03
+  Threshold: 2
+  Total Data Points: 2362
+  Data Points in Range: 2288 (96.87%)
+  Outlier Data Points: 74 (3.13%)
+
+Column: Volume
+  Skewness: 4.92
+  Threshold: 3
+  Total Data Points: 2362
+  Data Points in Range: 2316 (98.05%)
+  Outlier Data Points: 46 (1.95%)
+
+Final shape of Zscore_filtered_df: (2362, 11)
