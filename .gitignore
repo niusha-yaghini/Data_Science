@@ -1,11 +1,24 @@
-*.csv
-*.txt
-*.pkl
-*.pickle
-*.h5
-*.zip
-*.parquet
-
+# Python
 __pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# All text files
+*.txt
+
+# Zip files
+*.zip
+
+# Backup folders
+**/BackUp/
+
+# Environment
 .env
+venv/
+
+# Models
+*.pkl
+*.joblib
+*.h5
